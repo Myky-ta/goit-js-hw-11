@@ -1,4 +1,3 @@
- // src/js/main.js
 import { getImagesByQuery } from './pixabay-api.js';
 import { createGallery, clearGallery, showLoader, hideLoader } from './render-functions.js';
 
