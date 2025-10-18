@@ -15,12 +15,7 @@ const api = axios.create({
   },
 });
 
-/*
- * (в main.js ми обробляємо data.hits та інші перевірки)
- *
- * @param {string} query
- * @returns {Promise<Object>} response.data
- */
+
 export function getImagesByQuery(query) {
   if (typeof query !== 'string') {
     return Promise.reject(new Error('Query must be a string'));
